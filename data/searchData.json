@@ -1,0 +1,209 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 145,
+      "relation": "eq"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636323494402764806",
+        "_score": 1.0,
+        "_source": {
+          "content": "1、允许用户最多尝试三次 2、每尝试三次后，如果还没猜对，就问用户是否继续玩，如果回答Y，y，就继续猜三次，以此往复，如果回答N，n，就直接退出 times=0 count=3 while times&lt;=3: age=int(input(‘请输入年龄...",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:08:17.000Z",
+          "title": "猜三次年龄",
+          "tags": "[python]",
+          "@timestamp": "2023-03-29T08:25:06.669Z",
+          "url": "https://blog.csdn.net/JonyQAQ/article/details/108245092",
+          "createtime": "2020-08-26T10:23:29.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636323494402764806
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636323494469873679",
+        "_score": 1.0,
+        "_source": {
+          "content": "<em>c</em>代码-滑动滤波<em>C语言</em>实现",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:08:17.000Z",
+          "title": "<em>c</em>代码-滑动滤波<em>C语言</em>实现",
+          "tags": "[代码]",
+          "@timestamp": "2023-03-29T08:25:06.702Z",
+          "url": "https://download.csdn.net/download/weixin_38734037/20275672",
+          "createtime": "2021-07-14T10:05:52.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636323494469873679
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636300785304305665",
+        "_score": 1.0,
+        "_source": {
+          "content": " <em>二叉树</em>概念及结构3. <em>二叉树</em>顺序结构及概念4. <em>二叉树</em>链式结构及实现 1. 树概念及结构 1.1树概念 树是一种非线性的数据结构，它是由n（n&gt;=0）个有限结点组成一个具有层次关系的集合。把它叫做树是因 为它看起来像...",
+          "userId": 1,
+          "updatetTime": "2023-03-16T09:38:03.000Z",
+          "title": "数据结构--<em>二叉树</em>--详解",
+          "tags": null,
+          "@timestamp": "2023-03-29T08:25:06.539Z",
+          "url": "https://blog.csdn.net/weixin_45796387/article/details/114994648",
+          "createtime": "2021-03-18T17:16:44.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636300785304305665
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636324095165493268",
+        "_score": 1.0,
+        "_source": {
+          "content": "<em>cpp</em>check hudson C++代码静态检测报告分析插件",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:10:40.000Z",
+          "title": "<em>cpp</em>check.hpi 1.9",
+          "tags": "[cppcheck hudson 代码检测]",
+          "@timestamp": "2023-03-29T08:25:06.762Z",
+          "url": "https://download.csdn.net/download/qq251788049/5146023",
+          "createtime": "2013-03-15T13:34:16.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636324095165493268
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636300785371414538",
+        "_score": 1.0,
+        "_source": {
+          "content": "易语言<em>二叉树</em>遍历源码,<em>二叉树</em>遍历,<em>二叉树</em>_取下级树,内存_读整数内存,读整数内存_",
+          "userId": 1,
+          "updatetTime": "2023-03-16T09:38:03.000Z",
+          "title": "易语言<em>二叉树</em>遍历",
+          "tags": "[易语言二叉树遍历源码 二叉树遍历 二叉树_取下级树 内存_读整数]",
+          "@timestamp": "2023-03-29T08:25:06.577Z",
+          "url": "https://download.csdn.net/download/weixin_38740201/12647350",
+          "createtime": "2020-07-21T09:17:12.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636300785371414538
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636301057179037699",
+        "_score": 1.0,
+        "_source": {
+          "content": "一、<em>java</em>开发环境 编译运行过程（常见面试题） 编译期： 将.<em>java</em>源文件交给编译器编译成.class字节码文件的过程 （2）运行期： 把编译后的.class字节码文件经过JVM加载并运行.class字节码文件 配置环境变量 ...",
+          "userId": 1,
+          "updatetTime": "2023-03-16T09:39:07.000Z",
+          "title": "<em>java</em>语言基础知识（完整版）",
+          "tags": "[java]",
+          "@timestamp": "2023-03-29T08:25:06.612Z",
+          "url": "https://blog.csdn.net/Healer_xiaozhen/article/details/108186961",
+          "createtime": "2020-08-30T01:54:30.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636301057179037699
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636301057246146566",
+        "_score": 1.0,
+        "_source": {
+          "content": "适用于新手的 Web 部署时的 <em>java</em>.lang.IllegalStateException 错误",
+          "userId": 1,
+          "updatetTime": "2023-03-16T09:39:07.000Z",
+          "title": "<em>java</em>.lang.IllegalStateException: 启动子级时出错",
+          "tags": "[java, apache, tomcat]",
+          "@timestamp": "2023-03-29T08:25:06.643Z",
+          "url": "https://blog.csdn.net/qq_56335560/article/details/122553308",
+          "createtime": "2022-01-18T01:37:33.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636301057246146566
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636323494402764805",
+        "_score": 1.0,
+        "_source": {
+          "content": "委托是C#中的一个引用类型。它允许捕捉对方法的引用，并像传递其他对象那样传递该引用，也可以像调用其他方法一样调用被捕捉的方法。{a+b}我们同样可以使用C#为我们声明好的委托和。其中，代表有返回值的方法，代表...",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:08:17.000Z",
+          "title": "C#委托与事件",
+          "tags": "[c#, 开发语言]",
+          "@timestamp": "2023-03-29T08:25:06.669Z",
+          "url": "https://blog.csdn.net/LWR_Shadow/article/details/125831302",
+          "createtime": "2022-07-17T06:01:01.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636323494402764805
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636323494469873676",
+        "_score": 1.0,
+        "_source": {
+          "content": "<em>C语言</em>/C++语言60多种小游戏源代码，附图片，可用",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:08:17.000Z",
+          "title": "<em>c语言</em>项目源码大全.zip_<em>C</em>+项目源码_<em>c语言</em>代码大全_<em>c语言</em>架构源码_<em>c语言</em>项目代码_中国结<em>c</em>源码",
+          "tags": "[c+项目源码 c语言代码大全 c语言架构源码 c语言项目代码 中国结c源码]",
+          "@timestamp": "2023-03-29T08:25:06.685Z",
+          "url": "https://download.csdn.net/download/weixin_42662293/86154514",
+          "createtime": "2022-07-14T03:19:10.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636323494469873676
+        }
+      },
+      {
+        "_index": "post_v1",
+        "_type": "_doc",
+        "_id": "1636324095165493251",
+        "_score": 1.0,
+        "_source": {
+          "content": "<em>CPP</em>工具大全.zip 软件下载安装包",
+          "userId": 1,
+          "updatetTime": "2023-03-16T11:10:40.000Z",
+          "title": "<em>CPP</em>工具大全.zip 软件下载安装包",
+          "tags": "[源码软件 便捷生成器]",
+          "@timestamp": "2023-03-29T08:25:06.727Z",
+          "url": "https://download.csdn.net/download/weixin_48077282/85236046",
+          "createtime": "2022-04-28T05:47:16.000Z",
+          "@version": "1",
+          "isdelete": 0,
+          "id": 1636324095165493251
+        }
+      }
+    ]
+  }
+}

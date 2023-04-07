@@ -1,0 +1,41 @@
+GET post/_search
+{
+  "query": {
+    "bool" : {
+      "should" : [
+        {
+          "match" : {
+            "title" : {
+              "query" : "数据",
+              "operator" : "OR",
+              "prefix_length" : 0,
+              "max_expansions" : 50,
+              "fuzzy_transpositions" : true,
+              "lenient" : false,
+              "zero_terms_query" : "NONE",
+              "auto_generate_synonyms_phrase_query" : true,
+              "boost" : 1.0
+            }
+          }
+        },
+        {
+          "match" : {
+            "content" : {
+              "query" : "数据",
+              "operator" : "OR",
+              "prefix_length" : 0,
+              "max_expansions" : 50,
+              "fuzzy_transpositions" : true,
+              "lenient" : false,
+              "zero_terms_query" : "NONE",
+              "auto_generate_synonyms_phrase_query" : true,
+              "boost" : 1.0
+            }
+          }
+        }
+      ],
+      "adjust_pure_negative" : true,
+      "minimum_should_match" : "0"
+    }
+  }
+}

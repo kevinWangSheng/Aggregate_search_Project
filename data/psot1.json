@@ -1,0 +1,75 @@
+{
+  "query": {
+    "bool": {
+      "must_not": [
+        {
+          "match": {
+            "title": ""
+          }
+        }
+      ],
+      "should": [
+        {
+          "match": {
+            "title": ""
+          }
+        },
+        {
+          "match": {
+            "desc": ""
+          }
+        }
+      ],
+      "filter": [
+        {
+          "term": {
+            "isDelete": 0
+          }
+        },
+        {
+          "term": {
+            "id": 1
+          }
+        },
+        {
+          "term": {
+            "tags": "java"
+          }
+        },
+        {
+          "term": {
+            "tags": "框架"
+          }
+        }
+      ],
+      "minimum_should_match": 0
+    }
+  },
+  "from": 0,
+  "size": 5,
+  "_source": [
+    "name",
+    "_createTime",
+    "desc",
+    "reviewStatus",
+    "priority",
+    "tags"
+  ],
+  "sort": [
+    {
+      "priority": {
+        "order": "desc"
+      }
+    },
+    {
+      "_score": {
+        "order": "desc"
+      }
+    },
+    {
+      "publishTime": {
+        "order": "desc"
+      }
+    }
+  ]
+}
