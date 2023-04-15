@@ -12,8 +12,11 @@
 ### 数据存储
 
 - MySQL 数据库
-- Redis 内存数据库
 - Elasticsearch 搜索引擎
-- 
+- logstash数据同步
+
+### 解析工具
+- Jsoup+HtmlUnit页面解析抓取
+- Hutools解析Json
 
 ### 具体配置以后再写
